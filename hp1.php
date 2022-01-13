@@ -1,7 +1,7 @@
 <?php require 'header.php' ?>
 
     <main class="mainHp">
-        <form method="POST" action="score.php">
+        <form method="POST" action="scorehp1.php">
             <div class="colLeft">
                 <div class="question1">
                     <h3>Quel est le prénom de la mère de Harry ?</h3>
