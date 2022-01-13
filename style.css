@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, #62a8a8, #d36d98);
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+}
+
+button {
+  font-size: 1rem;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  background-color: rgba(29, 135, 221, 0.63);
+  color: antiquewhite;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.msgAccueil {
+  text-align: center;
+  font-size: 2rem;
+  margin: 100px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 2, 1fr;
+  grid-gap: 30px;
+  grid-template-areas:
+    "left right"
+    " btn btn"
+    "result result";
+}
+.colLeft {
+  grid-area: left;
+}
+.colRight {
+  grid-area: right;
+}
+
+.question1,
+.question2,
+.question3,
+.question4,
+.question5,
+.question6 {
+  margin: 25px;
+  font-size: 1.2rem;
+}
+
+.submit {
+  grid-area: btn;
+  margin: auto;
+}
+.result {
+  grid-area: result;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.3rem;
+  color: beige;
+  margin: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
