@@ -1,37 +1,37 @@
 <?php require 'header.php';
 
 $score = 0;
-if ($_POST["objet"] == "Son appareil photo") {
+if (isset($_POST["objet"]) == "Son appareil photo") {
     echo "<p>" . "Vous avez trouvé la bonne réponse à la question 1 !" . "</p>" . "<br>";
     $score = $score + 1;
 } else { 
     echo "<p>" . "La bonne réponse à la question 1 était Son appareil photo" . "</p>" . "<br>";
 }
-if ($_POST["mort"] == "Son cri") {
+if (isset($_POST["mort"]) == "Son cri") {
     echo "<p>" . "Vous avez trouvé la bonne réponse à la question 2 !" . "</p>" . "<br>";
     $score = $score + 1;
 } else { 
     echo "<p>" . "La bonne réponse à la questio 2 était Son cri" . "</p>" . "<br>";
 }
-if ($_POST["amis"] == "Hermione Granger") {
+if (isset($_POST["amis"]) == "Hermione Granger") {
     echo "<p>" . "Vous avez trouvé la bonne réponse à la question 3 !" . "</p>" . "<br>";
     $score = $score + 1;
 } else { 
     echo "<p>" . "La bonne réponse à la question 3 était Hermione Granger" . "</p>" . "<br>";
 }
-if ($_POST["dobby"] == "Un gâteau") {
+if (isset($_POST["dobby"]) == "Un gâteau") {
     echo "<p>" . "Vous avez trouvé la bonne réponse à la question 4 !" . "</p>" . "<br>";
     $score = $score + 1;
 } else { 
     echo "<p>" . "La bonne réponse à la question 4 était Un gâteau" . "</p>" . "<br>";
 }
-if ($_POST["hibou"] == "Errol") {
+if (isset($_POST["hibou"]) == "Errol") {
     echo "<p>" . "Vous avez trouvé la bonne réponse à la question 5 !" . "</p>" . "<br>";
     $score = $score + 1;
 } else { 
     echo "<p>" . "La bonne réponse à la question 5 était Errol" . "</p>" . "<br>";
 }
-if ($_POST["couleur"] == "Verte") {
+if (isset($_POST["couleur"]) == "Verte") {
     echo "<p>" . "Vous avez trouvé la bonne réponse à la question 6 !" . "</p>" . "<br>";
     $score = $score + 1;
 } else { 
